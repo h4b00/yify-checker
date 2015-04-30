@@ -6,9 +6,9 @@ if(window.getSelection().type == "Range"){
   xmlHttp.send(null);
   var status = xmlHttp.status;
   if (status == 404)
-	alert("Film not found!");
+    alert("Film not found!");
   else
-	window.open(url);
+    window.open(url);
 } else {
-	alert("Nothing selected.")
+  alert("Nothing selected.")
 }

@@ -1,24 +1,24 @@
 {
-	"name": "Lightweight YIFY-checker",
-	"description": "Check if selected text(name of movie) is available on yify-torrent.org",
-	"version": "0.1",
-	"manifest_version": 2,
-	"permissions": [
-		"activeTab",
-		"https://www.yify-torrent.org/*"
-	],
-	"background": {
-		"scripts": ["background.js"],
-		"persistent": false
-	},
-	"browser_action": {
-		"default_title": "Movie checker",
-	    "default_icon": "icons/48.png"
-	},
+  "name": "Lightweight YIFY-checker",
+  "description": "Check if selected text(name of movie) is available on yify-torrent.org",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab",
+    "https://www.yify-torrent.org/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Movie checker",
+    "default_icon": "icons/48.png"
+  },
 
-	"icons": {
-			"16": "icons/16.png",
-			"48": "icons/16.png",
-			"128": "icons/16.png"		
-	}
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/16.png",
+    "128": "icons/16.png"		
+  }
 }
