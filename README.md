@@ -9,7 +9,7 @@ This extension allow you to check if movie is available on yifi-torrent.org in e
 3. Expand the developer dropdown menu and click "Load Unpacked Extension".
 4. Navigate to local folder.
 
-###Usage
+### Usage
 
 Select text and click on extension icon.
 
